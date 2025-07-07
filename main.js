@@ -3,5 +3,11 @@ const getShare =document.querySelector('.share')
 
 
 getButton.addEventListener('click', () => {
-    getShare.style.display = 'block';
+    if(getShare.style.display == 'inline-flex'){
+        getShare.style.display = 'none';
+    }else {
+       getShare.style.display = 'inline-flex' 
+    }
+    
 })
+
