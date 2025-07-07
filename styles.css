@@ -3,6 +3,11 @@
     padding: 0%;
     box-sizing: border-box;
 }
+body{
+    
+    background-color: hsl(210, 46%, 95%);
+
+}
 
 .container {
     width: 820px;
@@ -10,6 +15,7 @@
     margin: 175px auto;
     display: flex;
     border-radius: 15px;
+    background-color: white;
 }
 
 .right-side {
@@ -25,6 +31,7 @@
 
 .left-side {
     width: 60%;
-    border-radius: 0px 15px 15px 0px
+    border-radius: 0px 15px 15px 0px;
+    padding: 35px;
 }
 
